@@ -10,6 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/','PagesController@root')->name('index');
 
-Route::get('/','WelcomeController@index')->name('index');
-Route::get('/pages/root','PagesController@root')->name('pages.root');
+Auth::routes();
