@@ -12,3 +12,4 @@
 */
 
 Route::get('/','WelcomeController@index')->name('index');
+Route::get('/pages/root','PagesController@root')->name('pages.root');
